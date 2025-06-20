@@ -13,7 +13,7 @@ export default function Home() {
           </nav>
         </header>
         <h1 className="text-center text-5xl mt-5 font-sen tracking-wide">Corporación Ejecutiva Internacional</h1>
-        <Image className="absolute top-30 left-5" src={"/resources/estatua-libertad.png"} width={300} height={200} alt="Estatua de la Libertad"></Image>
+        <Image className="absolute top-30 flex shrink left-5" src={"/resources/estatua-libertad.png"} width={300} height={200} alt="Estatua de la Libertad"></Image>
         <div className="w-200 h-25 mt-2 flex justify-evenly items-center">
           <Image src={"/resources/colombia-flag.avif"} width={100} height={150} alt="bandera de colombia"></Image>
           <Image src={"/resources/venezuela-flag.png"} width={100} height={150} alt="bandera de venezuela"></Image>
