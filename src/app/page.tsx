@@ -37,7 +37,7 @@ export default function Home() {
             </div>
             <div className="w-fit h-fit p-3 flex">                            
               <p className="text-xl text-violet-300 font-jura">Ver Cartas Recibidas:</p>
-              <Image className="ml-5 -mt-8" src={"/resources/pearl-harbor.webp"} width={60} height={30} alt="Pearl Harbor"></Image>
+              <Image className="ml-5 -mt-8" src={"/resources/pearl-harbor.webp"} width={59} height={30} alt="Pearl Harbor"></Image>
             </div>
           </div>
           <div className="flex flex-col items-center">
