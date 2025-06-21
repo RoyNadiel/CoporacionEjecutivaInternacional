@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <div className="h-screen w-screen flex flex-col items-center justify-evenly">
         {/* HEADER Y NAV */}
-        <header className="h-fit w-full">
+        <header className="h-fit w-full self-start">
           <nav className="h-20 flex justify-evenly items-center">
             <div className="w-fit h-fit md:p-3 sm:text-2xl p-1 text-sm border-2 font-semibold border-yellow-300 bg-blue-800 text-gray-200 text-center hand hover:text-white"><a className="font-roboto" href="#">¿Quienes Somos?</a></div>
             <div className="w-fit h-fit md:p-3 sm:text-2xl p-1 text-sm border-2 font-semibold border-yellow-300 bg-blue-800 text-gray-200 text-center hand hover:text-white"><a className="font-roboto" href="#">Portal Curriculums</a></div>
@@ -15,7 +15,7 @@ export default function Home() {
         </header>
         {/* TITULO Y BANDERAS */}
         <h1 className="text-3xl md:text-6xl text-center text-yellow-100 font-light mt-2 tracking-wide italic [text-shadow:_-1px_-1px_0_yellow,_1px_-1px_0_yellow,_-1px_1px_0_yellow,_1px_1px_0_yellow]">Corporación Ejecutiva Internacional</h1>        
-        <div className="grid grid-cols-5 sm:flex sm:w-200 w-fit h-15 gap-2 my-4 justify-evenly items-center">
+        <div className="grid grid-cols-5 sm:flex sm:w-200 w-fit h-15 gap-2 mt-4 justify-evenly items-center">
           <Image src={"/resources/colombia-flag.avif"} width={60} height={150} alt="bandera de colombia"></Image>
           <Image src={"/resources/venezuela-flag.png"} width={60} height={150} alt="bandera de venezuela"></Image>
           <Image src={"/resources/españa-flag.png"} width={60} height={150} alt="bandera de españa"></Image>
@@ -64,12 +64,12 @@ export default function Home() {
               <button className="text-md md:text-4xl italic font-extrabold cursor-pointer text-[#dee05d]">Ver Cartas Recibidas</button>
             </div>
           </div>
+          <div className="w-fit h-fit">
+            <Image className="md:hidden" src={"/resources/pearl-harbor.jpg"} width={60} height={30} alt="Pearl Harbor"></Image>
+          </div>
+          {/* ULTIMO DIV  */}          
         </div>
-        <div className="w-fit h-fit">
-          <Image className="md:hidden" src={"/resources/pearl-harbor.jpg"} width={60} height={30} alt="Pearl Harbor"></Image>
-        </div>
-        {/* ULTIMO DIV  */}
-        <div className="w-fit h-fit text-center my-auto md:mt-15 md:my-0 py-3 px-8 rounded-md border-5 border-[#493176] bg-[#F3A8AB]">
+        <div className="w-fit h-fit text-center mt-3 md:mt-15 md:my-0 py-3 px-8 rounded-md border-5 border-[#493176] bg-[#F3A8AB]">
           <h4 className="text-lg md:text-3xl italic font-extrabold text-[#323285]">Pre Fundación Patitas En La Calle</h4>
         </div>
       </div>
