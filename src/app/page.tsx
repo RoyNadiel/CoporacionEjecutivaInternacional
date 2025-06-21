@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="h-screen w-screen flex flex-col items-center">
+      <div className="h-screen w-screen flex flex-col items-center justify-evenly">
         {/* HEADER Y NAV */}
         <header className="h-fit w-full">
           <nav className="h-20 flex justify-evenly items-center">
@@ -23,8 +23,8 @@ export default function Home() {
           <Image src={"/resources/usa-flag.png"} width={60} height={150} alt="bandera de usa"></Image>
         </div>
           {/* MOBILE ROSA Y ESTATUA */}
+        <Image className="md:flex absolute top-30 left-5 hidden" src={"/resources/estatua-libertad.png"} width={300} height={200} alt="Estatua de la Libertad"></Image>
         <div className="h-fit w-fit flex justify-center items-center gap-15">
-          <Image className="md:flex hidden" src={"/resources/estatua-libertad.png"} width={300} height={200} alt="Estatua de la Libertad"></Image>
           <Image className="md:hidden" src={"/resources/estatua-libertad.png"} width={60} height={20} alt="Estatua de la Libertad"></Image>
           <Image className="md:hidden" src={"/resources/rosa-vientos.png"} width={50} height={20} alt={"rosa de los vientos"}></Image>
         </div>
@@ -39,7 +39,7 @@ export default function Home() {
           <h2 className="text-md md:text-4xl font-semibold text-[#2E3091] italic">Brindando una Atención Especial</h2>
         </div>
         {/* SEGUNDO Y TERCER DIV  */}
-        <div className="w-screen h-fit flex flex-col md:w-350 md:h-50 mt-15 md:mt-5 md:flex md:flex-row justify-evenly items-center">
+        <div className="w-screen h-fit flex flex-col md:w-350 md:h-50 mt-5 md:mt-5 md:flex md:flex-row justify-evenly items-center">
           <div className="flex flex-col items-center md:mt-8">
             <div className="h-fit px-10 flex flex-col justify-evenly items-center bg-[#DDEFF3] rounded-[30] md:rounded-[80] border border-black">
               <h3 className="text-md font-semibold md:text-3xl md:font-bold italic text-[#151B50]">Record Ventas Internacionales</h3>
@@ -66,10 +66,10 @@ export default function Home() {
           </div>
         </div>
         <div className="w-fit h-fit">
-          <Image className="md:hidden" src={"/resources/pearl-harbor.jpg"} width={40} height={30} alt="Pearl Harbor"></Image>
+          <Image className="md:hidden" src={"/resources/pearl-harbor.jpg"} width={60} height={30} alt="Pearl Harbor"></Image>
         </div>
         {/* ULTIMO DIV  */}
-        <div className="w-fit h-fit text-center mt-5 md:mt-15 py-3 px-8 rounded-md border-5 border-[#493176] bg-[#F3A8AB]">
+        <div className="w-fit h-fit text-center my-auto md:mt-15 md:my-0 py-3 px-8 rounded-md border-5 border-[#493176] bg-[#F3A8AB]">
           <h4 className="text-lg md:text-3xl italic font-extrabold text-[#323285]">Pre Fundación Patitas En La Calle</h4>
         </div>
       </div>
