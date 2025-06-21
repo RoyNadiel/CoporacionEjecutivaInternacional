@@ -7,10 +7,10 @@ export default function Home() {
         {/* HEADER Y NAV */}
         <header className="h-fit w-full self-start">
           <nav className="h-20 flex justify-evenly items-center">
-            <div className="w-fit h-fit md:p-3 sm:text-2xl p-1 text-sm border-2 font-semibold border-yellow-300 bg-blue-800 text-gray-200 text-center hand hover:text-white"><a className="font-roboto" href="#">¿Quienes Somos?</a></div>
-            <div className="w-fit h-fit md:p-3 sm:text-2xl p-1 text-sm border-2 font-semibold border-yellow-300 bg-blue-800 text-gray-200 text-center hand hover:text-white"><a className="font-roboto" href="#">Portal Curriculums</a></div>
-            <div className="w-fit h-fit md:p-3 sm:text-2xl p-1 text-sm border-2 font-semibold border-yellow-300 bg-blue-800 text-gray-200 text-center hand hover:text-white"><a className="font-roboto" href="#">Tus Beneficios</a></div>
-            <div className="w-fit h-fit md:p-3 sm:text-2xl p-1 text-sm border-2 font-semibold border-yellow-300 bg-blue-800 text-gray-200 text-center hand hover:text-white"><a className="font-roboto" href="#">Contactanos</a></div>
+            <div className="w-fit h-fit md:p-3 sm:text-2xl p-1 text-sm border-2 font-semibold border-yellow-300 bg-blue-800 text-gray-200 text-center hand hover:text-white"><a className="" href="#">¿Quienes Somos?</a></div>
+            <div className="w-fit h-fit md:p-3 sm:text-2xl p-1 text-sm border-2 font-semibold border-yellow-300 bg-blue-800 text-gray-200 text-center hand hover:text-white"><a className="" href="#">Portal Curriculums</a></div>
+            <div className="w-fit h-fit md:p-3 sm:text-2xl p-1 text-sm border-2 font-semibold border-yellow-300 bg-blue-800 text-gray-200 text-center hand hover:text-white"><a className="" href="#">Tus Beneficios</a></div>
+            <div className="w-fit h-fit md:p-3 sm:text-2xl p-1 text-sm border-2 font-semibold border-yellow-300 bg-blue-800 text-gray-200 text-center hand hover:text-white"><a className="" href="#">Contactanos</a></div>
           </nav>
         </header>
         {/* TITULO Y BANDERAS */}
@@ -42,23 +42,23 @@ export default function Home() {
         <div className="w-screen h-fit flex flex-col md:w-350 md:h-50 mt-5 md:mt-5 md:flex md:flex-row justify-evenly items-center">
           <div className="flex flex-col items-center md:mt-8">
             <div className="h-fit px-10 flex flex-col justify-evenly items-center bg-[#DDEFF3] rounded-[30] md:rounded-[80] border border-black">
-              <h3 className="text-md font-semibold md:text-3xl md:font-bold italic text-[#151B50]">Record Ventas Internacionales</h3>
+              <h3 className="text-md font-semibold md:text-3xl md:font-black italic text-[#151B50]">Record Ventas Internacionales</h3>
               <h3 className="text-md font-semibold md:text-3xl md:font-bold italic text-[#C43033]">Libro Prohibido el 2022</h3>
-              <h3 className="text-md font-semibold md:text-3xl md:font-bold italic text-[#191C55]">Probable VERDAD del <span className="text-[#C43033]">COVID 19</span></h3>
+              <h3 className="text-md font-semibold md:text-3xl md:font-bold italic text-[#191C55] self-center">Probable VERDAD<span className="block text-center text-[#C43033]">del COVID 19</span></h3>
             </div>
-            <div className="w-fit h-fit md:p-3 md:flex">
+            <div className="w-fit h-fit flex gap-8 md:p-3 md:flex">
               <button className="text-md md:text-4xl italic cursor-pointer font-extrabold text-[#dee05d]">Ver Cartas Recibidas</button>
-              <Image className="md:flex absolute bottom-28 left-165 hidden" src={"/resources/pearl-harbor.jpg"} width={59} height={30} alt="Pearl Harbor"></Image>
+              <Image className="md:block md:-mt-20 hidden" src={"/resources/pearl-harbor.jpg"} width={70} height={30} alt="Pearl Harbor"></Image>
             </div>
           </div>
           <div className="flex flex-col items-center">
             <div className="w-fit h-fit">
-              <p className="text-md md:text-4xl italic font-extrabold text-[#445159] font-jura [text-shadow:_-1px_-1px_0_lightblue,_1px_-1px_0_lightblue,_-1px_1px_0_lightblue,_1px_1px_0_lightblue]">Curso Short Time</p>
+              <p className="text-md md:text-4xl italic font-extrabold text-[#445159] [text-shadow:_-1px_-1px_0_lightblue,_1px_-1px_0_lightblue,_-1px_1px_0_lightblue,_1px_1px_0_lightblue]">Curso Short Time</p>
             </div>
             <div className="bg-[#DDEFF3] h-fit px-10 rounded-[30] md:rounded-[80] border border-black flex flex-col justify-evenly items-center">
               <h3 className="text-md font-semibold md:text-3xl md:font-bold italic text-[#6A61A5]">Como Materializar Tus Deseos</h3>
-              <h3 className="text-md font-semibold md:text-3xl md:font-bold italic text-[#0F453C]">TU MENTE CUMPLE TUS DESEOS</h3>
-              <h3 className="text-md font-semibold md:text-3xl md:font-bold italic text-[#9D487F]">Control Mental Alpha</h3>
+              <h3 className="text-md font-semibold md:text-3xl md:font-bold italic text-[#0F453C] text-center">TU MENTE CUMPLE TUS <span className="block">DESEOS</span></h3>
+              <h3 className="text-md font-semibold md:text-3xl md:font-bold italic text-[#9D487F]">Control Mental ALPHA</h3>
             </div>
             <div className="w-fit h-fit p-3">
               <button className="text-md md:text-4xl italic font-extrabold cursor-pointer text-[#dee05d]">Ver Cartas Recibidas</button>
@@ -70,7 +70,7 @@ export default function Home() {
           {/* ULTIMO DIV  */}          
         </div>
         <div className="w-fit h-fit text-center mt-3 md:mt-15 md:my-0 py-3 px-8 rounded-md border-5 border-[#493176] bg-[#F3A8AB]">
-          <h4 className="text-lg md:text-3xl italic font-extrabold text-[#323285]">Pre Fundación Patitas En La Calle</h4>
+          <h4 className="text-lg md:text-4xl italic font-extrabold text-[#323285]">Pre Fundación Patitas En La Calle</h4>
         </div>
       </div>
     </>
