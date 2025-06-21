@@ -39,7 +39,7 @@ export default function Home() {
           <h2 className="text-md md:text-4xl font-semibold text-[#2E3091] italic">Brindando una Atención Especial</h2>
         </div>
         {/* SEGUNDO Y TERCER DIV  */}
-        <div className="w-screen h-fit flex flex-col md:w-350 md:h-50 mt-5 md:mt-5 md:flex md:flex-row justify-evenly items-center">
+        <div className="w-screen h-fit flex flex-col md:w-350 md:h-fit mt-5 md:mt-5 md:flex md:flex-row md:justify-center md:items-center md:gap-15 justify-evenly items-center">
           <div className="flex flex-col items-center md:mt-8">
             <div className="h-fit px-10 flex flex-col justify-evenly items-center bg-[#DDEFF3] rounded-[30] md:rounded-[80] border border-black">
               <h3 className="text-md font-semibold md:text-3xl md:font-black italic text-[#151B50]">Record Ventas Internacionales</h3>
@@ -69,7 +69,7 @@ export default function Home() {
           </div>
           {/* ULTIMO DIV  */}          
         </div>
-        <div className="w-fit h-fit text-center mt-3 md:mt-15 md:my-0 py-3 px-8 rounded-md border-5 border-[#493176] bg-[#F3A8AB]">
+        <div className="w-fit h-fit text-center mt-3 md:mt-5md:my-0 py-3 px-8 rounded-md border-5 border-[#493176] bg-[#F3A8AB]">
           <h4 className="text-lg md:text-4xl italic font-extrabold text-[#323285]">Pre Fundación Patitas En La Calle</h4>
         </div>
       </div>
