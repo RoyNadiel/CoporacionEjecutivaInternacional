@@ -43,8 +43,8 @@ export default function Home() {
             </div>
             <div className="w-fit h-fit md:p-3 md:flex">
               <button className="text-md md:text-4xl italic cursor-pointer font-extrabold text-[#dee05d]">Ver Cartas Recibidas</button>
-              <Image className="md:flex absolute bottom-28 left-165 hidden" src={"/resources/pearl-harbor2.jpg"} width={59} height={30} alt="Pearl Harbor"></Image>
-              <Image className="absolute bottom-25 left-45 md:hidden" src={"/resources/pearl-harbor2.jpg"} width={40} height={30} alt="Pearl Harbor"></Image>
+              <Image className="md:flex absolute bottom-28 left-165 hidden" src={"/resources/pearl-harbor.jpg"} width={59} height={30} alt="Pearl Harbor"></Image>
+              <Image className="absolute bottom-25 left-45 md:hidden" src={"/resources/pearl-harbor.jpg"} width={40} height={30} alt="Pearl Harbor"></Image>
             </div>
           </div>
           <div className="flex flex-col items-center">
