@@ -43,7 +43,7 @@ export default function RootLayout({ children }: Readonly<{
 }>) {
   return (
     <html lang="es">
-      <body className={`bg-[url('/resources/spain-beach.webp')] ${quicksand.className} ${inconsolata.variable} ${roboto.variable} ${jura.variable} ${sen.variable} antialiased`}>
+      <body className={`bg-[url('/resources/spain-beach-new.jpeg')] ${quicksand.className} ${inconsolata.variable} ${roboto.variable} ${jura.variable} ${sen.variable} antialiased`}>
         {children}
       </body>
     </html>
